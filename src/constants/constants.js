@@ -1,5 +1,23 @@
 export const projects = [
   {
+    title: 'Recrypto',
+    description:"Created a web application to display in-depth data of all crypto-currencies, where user can check the price , news and other details of a particular crypto-currency and can search forit’s favourite crypto-currrency. React Line-chart is used to display the price of a particular crypto-currency.",
+    image: '/images/recrypto.png',
+    tags: ['ReactJS', 'Redux ToolKit', 'Ant Design', 'ChartJS'],
+    source: 'https://github.com/Jai-khanchandani/recrypto',
+    visit: 'https://recrypto.netlify.app/',
+    id: 0,
+  },
+  {
+    title: 'Lets Order',
+    description: "Created a fully responsive website using Reactjs and CSS media queries for different screen view. user can check out the menu, photo gallery and introductory video",
+      image: '/images/restaurant.png',
+      tags: ['ReactJS', 'CSS', 'Media-Queries'],
+    source: 'https://github.com/Jai-khanchandani/Restaurant-Application',
+    visit: 'https://gericht-cafe.netlify.app/',
+    id: 0,
+  },
+  {
     title: 'Covid-19 Tracker',
     description: "Developed a web application for tracking the Covid-19 cases all over the world. Users can also apply filters on the data and get the desired results",
       image: '/images/covid.png',
@@ -7,17 +25,7 @@ export const projects = [
     source: 'https://github.com/Jai-khanchandani/covid-19-tracker',
     visit: 'https://numbers-covid19.netlify.app/',
     id: 0,
-  },
-  {
-    title: 'Slack-Clone',
-    description:"Created a clone of Slack using ReactJs-Styled Components, React-Redux. User has the ability to Add a new channel in the application. Firebase is used for data storage and deployment.",
-    image: '/images/slack.png',
-    tags: ['React', 'React-Redux', 'FireBase'],
-    source: 'https://github.com/Jai-khanchandani/Slack-Clone',
-    visit: 'https://slack-clone-e2fed.web.app/',
-    id: 1,
-  },
-  
+  }  
 ];
 
 export const experience = [
